@@ -1,4 +1,3 @@
-```markdown
 # Hi, I’m Jitesh Prakash Chaudhary 👋
 
 <p align="center">
@@ -104,4 +103,4 @@ Feel free to check out my website or reach out to me across any of my active net
   <a href="https://wa.me/9827361845"><img src="https://img.shields.io/badge/WhatsApp-Connect-25D366?style=flat-square&logo=whatsapp&logoColor=white" /></a>
 </p>
 
-```
+#
