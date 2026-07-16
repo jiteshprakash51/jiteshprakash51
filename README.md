@@ -1,18 +1,20 @@
-# Hi, I’m Your Name 👋
+```markdown
+# Hi, I’m Jitesh Prakash Chaudhary 👋
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI+Builder;Open-Source+Enthusiast;Always+Learning" alt="Typing animation" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=social" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=jiteshprakash51&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/jiteshprakash51?label=Followers&style=social" alt="GitHub followers" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="Email" /></a>
+  <a href="https://jiteshprakash.com.np"><img src="https://img.shields.io/badge/Portfolio-Website-7C3AED?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/jiteshprakash51"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/jiteshprakash51"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/jiteshprakash51"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
 <svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated developer profile banner">
@@ -59,7 +61,7 @@ I’m a passionate developer who loves crafting elegant products, automating wor
 
 ## 🧠 Core Skills
 
-- Python, JavaScript, TypeScript
+- Python, JavaScript, TypeScript, C, QBASIC
 - React, Node.js, Flask, FastAPI
 - AI automation, APIs, and data-driven systems
 - UI/UX polish, clean architecture, and scalable thinking
@@ -74,8 +76,8 @@ I’m a passionate developer who loves crafting elegant products, automating wor
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jiteshprakash51&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jiteshprakash51&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
 ## 🛠️ Tech Stack
@@ -88,6 +90,18 @@ I’m a passionate developer who loves crafting elegant products, automating wor
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
 </p>
 
-## 📫 Let’s Connect
+## 📫 Let's Connect
 
-If you want to collaborate, build something exciting, or just say hello, feel free to reach out.
+Feel free to check out my website or reach out to me across any of my active networks!
+
+<p align="left">
+  <a href="https://jiteshprakash.com.np"><img src="https://img.shields.io/badge/Website-jiteshprakash.com.np-7C3AED?style=flat-square&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://github.com/jiteshprakash51"><img src="https://img.shields.io/badge/GitHub-jiteshprakash51-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://facebook.com/jiteshprakash51"><img src="https://img.shields.io/badge/Facebook-jiteshprakash51-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
+  <a href="https://instagram.com/jiteshprakash51"><img src="https://img.shields.io/badge/Instagram-jiteshprakash51-E4405F?style=flat-square&logo=instagram&logoColor=white" /></a>
+  <a href="https://x.com/jiteshprakash51"><img src="https://img.shields.io/badge/Twitter%20/%20X-jiteshprakash51-000000?style=flat-square&logo=x&logoColor=white" /></a>
+  <a href="https://reddit.com/user/jiteshprakash51"><img src="https://img.shields.io/badge/Reddit-jiteshprakash51-FF4500?style=flat-square&logo=reddit&logoColor=white" /></a>
+  <a href="https://wa.me/9827361845"><img src="https://img.shields.io/badge/WhatsApp-Connect-25D366?style=flat-square&logo=whatsapp&logoColor=white" /></a>
+</p>
+
+```
