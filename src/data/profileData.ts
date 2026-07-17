@@ -1,4 +1,80 @@
-<!--
+import { Project, TechItem, ExportableFile } from "../types";
+
+export const projectsData: Project[] = [
+  {
+    id: "jarvis",
+    title: "PWJARVIS",
+    category: "Robotics & Artificial Intelligence",
+    description: "An intelligent robotic agent built using Raspberry Pi and other microcontrollers. Fully capable of spatial movement, following user instructions, interactive speech synthesis, computer vision-based object/face recognition, and LLM reasoning.",
+    tech: ["Raspberry Pi", "Python", "OpenCV", "Gemini API", "PyTTSx3", "Hardware Controls"],
+    features: ["Speech Recognition & Local Synthesis", "Interactive Vision & Object Recognition", "Autonomous Pathing & Motor Logic", "Real-Time Conversational LLM Reasoning"],
+    status: "ONLINE",
+    icon: "Bot",
+    color: "from-cyan-500 to-blue-600",
+    link: "https://github.com/jiteshprakash51"
+  },
+  {
+    id: "corruption",
+    title: "Corruption Controller",
+    category: "Civic Technology",
+    description: "A centralized public ledger and transparency dashboard that indexes civic spending, tracks financial allocations, and empowers citizen auditing networks in Nepal.",
+    tech: ["React", "TypeScript", "Node.js", "Supabase", "TailwindCSS"],
+    features: ["Dynamic Budget Visualizers", "Anonymous Whistleblowing Gateway", "Public Audit Progress Tracking", "Immutable Ledger Simulation"],
+    status: "ONLINE",
+    icon: "ShieldAlert",
+    color: "from-purple-500 to-indigo-600",
+    link: "https://github.com/jiteshprakash51"
+  },
+  {
+    id: "seementor",
+    title: "SEE Mentor AI",
+    category: "EdTech Intelligence",
+    description: "An AI-powered mentoring and predictive analysis system designed to help Nepalese high schoolers master the Secondary Education Examination (SEE) syllabus.",
+    tech: ["Python", "Gemini API", "React", "TypeScript", "FastAPI"],
+    features: ["Syllabus-aligned Practice Simulators", "Instant Automated Grading", "Cognitive Gap Analysis Reports", "Interactive Virtual Teacher Module"],
+    status: "STABLE",
+    icon: "GraduationCap",
+    color: "from-rose-500 to-pink-600",
+    link: "https://github.com/jiteshprakash51"
+  }
+];
+
+export const techStackData: TechItem[] = [
+  // Languages
+  { name: "Python", category: "languages", level: 95, iconName: "Python", description: "Primary language for AI agent pipelines, robotics scripting, and data orchestration." },
+  { name: "TypeScript", category: "languages", level: 88, iconName: "TypeScript", description: "Type-safe development for complex interactive web apps and full-stack servers." },
+  { name: "JavaScript", category: "languages", level: 90, iconName: "JavaScript", description: "Core web interactive development and lightweight server scripting." },
+  
+  // Web Frameworks
+  { name: "React", category: "web", level: 85, iconName: "React", description: "Building highly modular, elegant interfaces and complex state dashboards." },
+  { name: "Node.js", category: "web", level: 82, iconName: "Node.js", description: "Scalable backend event engines and microservices creation." },
+  
+  // Databases
+  { name: "Supabase", category: "databases", level: 80, iconName: "Supabase", description: "PostgreSQL orchestration, real-time database syncing, and security policies." },
+  
+  // Hardware / Robotics
+  { name: "Raspberry Pi", category: "hardware", level: 90, iconName: "Cpu", description: "Single-board computer server nodes, hardware controller interfaces, and vision pipelines." },
+  { name: "Arduino", category: "hardware", level: 85, iconName: "Cpu", description: "Microcontroller orchestration, sensor arrays integration, and real-time physical loops." },
+
+  // Cybersecurity
+  { name: "Penetration Testing", category: "security", level: 88, iconName: "Shield", description: "Vulnerability analysis, web security exploits, and training on HackTheBox labs." },
+  { name: "Cryptography", category: "security", level: 82, iconName: "Shield", description: "Symmetric and asymmetric encryption, secure key exchange, and hash functions." },
+  { name: "Reverse Engineering", category: "security", level: 75, iconName: "Terminal", description: "Decompiling binaries, x86/ARM assembly debugging, and security audits." },
+  { name: "Network Security", category: "security", level: 85, iconName: "Terminal", description: "Traffic interception, port diagnostics, SSL/TLS handshake protocols, and firewalls." },
+  
+  // Dev Tools / Security
+  { name: "Linux", category: "tools", level: 88, iconName: "Terminal", description: "Bash terminal automation, developer server environment, and system diagnostics." },
+  { name: "Docker", category: "tools", level: 75, iconName: "Docker", description: "Containerized deployment of local servers and network sandboxes." },
+  { name: "Git & GitHub", category: "tools", level: 92, iconName: "Github", description: "Distributed version control, collaborative workflows, and GitHub Actions automation." }
+];
+
+export const exportableFiles: ExportableFile[] = [
+  {
+    name: "README.md",
+    path: "README.md",
+    language: "markdown",
+    description: "The main, world-class cybernetic developer landing page for your GitHub profile.",
+    content: `<!--
   SPDX-License-Identifier: Apache-2.0
   jiteshprakash51 Cybernetic GitHub Headquarters
   Designed in collaboration with Google AI Studio (Apple x Linear x Cyberpunk theme)
@@ -25,7 +101,7 @@
 
 ## 🌌 SYSTEM CHRONOLOGY & DECODING
 
-```yaml
+\`\`\`yaml
 [Host Connection]: jiteshprakash51@mainframe.local
 [Secure Key Sync]: DECRYPTED_AES256
 [Coordinates]   : 27.7172° N, 85.3240° E (Kathmandu, Nepal)
@@ -33,7 +109,7 @@
 [Academia]      : SEE completed at Lahan Paragon Public School (3.9 GPA)
                  Currently studying +2 Science (Physical group) at KMC Bagbazar
 [Goal]          : Engineering High-Integrity Digital Solutions and Intelligent Machine Networks
-```
+\`\`\`
 
 Welcome to my digital headquarters. I am **Jitesh Prakash Chaudhary**, an AI and robotics builder bridging the gap between high-performance software systems and intelligent physical machinery. My work combines machine intelligence, security diagnostics, and interactive digital ecosystems.
 
@@ -74,10 +150,10 @@ Welcome to my digital headquarters. I am **Jitesh Prakash Chaudhary**, an AI and
 ### 1. [🤖 PWJARVIS](https://github.com/jiteshprakash51)
 *Interactive Raspberry Pi Intelligent Robot*
 > An advanced physical robotic assistant operating on Raspberry Pi. Integrates motor-driven movement control, speaker-assisted speech synthesis, computer vision camera recognition, and real-time reasoning via LLM integration to safely execute complex instructions.
-```bash
+\`\`\`bash
 $ python pwjarvis.py --mode=robotics-neural
 > PWJarvis online. Connected to hardware motors & vision relays...
-```
+\`\`\`
 
 ### 2. [🏛️ Corruption Controller](https://github.com/jiteshprakash51)
 *Transparency & Accountable Civic Platform*
@@ -157,12 +233,12 @@ Here is a visual map of my continuous coding contributions, dynamically navigate
 
 Select one of the connection vectors below to sync with my mainframe:
 
-```
+\`\`\`
 [MAIN ENCRYPTION VECTOR] : jitesh@jiteshprakash.com.np
 [SUPPORT FREQUENCY]      : info@jiteshprakash.com.np
 [SECURE DIRECT VECTOR]   : contact@jiteshprakash.com.np
 [CENTRAL NETWORK ORG]    : org@jiteshprakash.com.np
-```
+\`\`\`
 
 <p align="center">
   <a href="https://github.com/jiteshprakash51" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -186,4 +262,108 @@ Select one of the connection vectors below to sync with my mainframe:
 
 <div align="center">
   <sub><i>// Powered by Antigravity Agent • Designed with absolute structural intent //</i></sub>
-</div>
+</div>`
+  },
+  {
+    name: "snake.yml",
+    path: ".github/workflows/snake.yml",
+    language: "yaml",
+    description: "GitHub Actions workflow to automatically generate the contribution snake animation SVG daily.",
+    content: `name: generate-snake
+
+on:
+  schedule:
+    - cron: "0 */24 * * *" 
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+    - main
+
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: generate-github-contribution-grid-snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: jiteshprakash51
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#0F172A,#1E293B,#334155,#475569,#7C3AED
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+`
+  },
+  {
+    name: "metrics.yml",
+    path: ".github/workflows/metrics.yml",
+    language: "yaml",
+    description: "GitHub Actions workflow integrating lowlighter/metrics to render user stats, trophies, languages, and coding patterns.",
+    content: `# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full configuration options
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: General Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: \${{ secrets.METRICS_TOKEN }}
+          user: jiteshprakash51
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kathmandu
+          
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          plugin_lines: yes
+          plugin_lines_sections: base
+          
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          plugin_starlists: yes
+          plugin_starlists_limit: 2
+          
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_sort: stars
+          
+          plugin_trophies: yes
+          plugin_trophies_skin: obsidian
+          plugin_trophies_layout: flat
+`
+  }
+];

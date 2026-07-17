@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="100%" height="100%" style="background:#030712; font-family:'Inter', sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="cyber-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <linearGradient id="cyber-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="cyber-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="dark-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.9" />
+    </linearGradient>
+    <radialGradient id="glow-purple" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glow Filters -->
+    <filter id="neon-glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="neon-glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1F2937" stroke-width="0.7" stroke-opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <!-- Ambient Glow Backgrounds -->
+  <rect width="1600" height="800" fill="#030712" />
+  <rect width="1600" height="800" fill="url(#glow-purple)" />
+  <rect width="1600" height="800" fill="url(#glow-cyan)" />
+  
+  <!-- Cybernetic Grid Overlay -->
+  <rect width="1600" height="800" fill="url(#grid)" />
+
+  <!-- Diagonal Tech Design Elements -->
+  <path d="M-100 0 L600 0 L500 800 L-100 800 Z" fill="#030712" fill-opacity="0.3" />
+  <line x1="550" y1="0" x2="450" y2="800" stroke="url(#cyber-purple)" stroke-width="1.5" stroke-opacity="0.4" />
+  <line x1="560" y1="0" x2="460" y2="800" stroke="url(#cyber-cyan)" stroke-width="1" stroke-opacity="0.2" />
+
+  <!-- Left Side: Interactive Holographic Neural Net Frame -->
+  <g transform="translate(150, 220)">
+    <!-- 3D Outer Hex Ring -->
+    <polygon points="120,0 360,0 480,210 360,420 120,420 0,210" fill="url(#dark-card)" stroke="url(#cyber-purple)" stroke-width="2" filter="url(#neon-glow-purple)" />
+    <!-- Inner Frame Borders -->
+    <polygon points="130,15 350,15 460,210 350,405 130,405 20,210" fill="none" stroke="#374151" stroke-width="1" />
+    
+    <!-- Neural Network Nodes & Constellations (Simulated 3D) -->
+    <g stroke="#4B5563" stroke-width="0.8" stroke-opacity="0.7" fill="none">
+      <line x1="120" y1="100" x2="240" y2="70" />
+      <line x1="240" y1="70" x2="360" y2="120" />
+      <line x1="360" y1="120" x2="400" y2="240" />
+      <line x1="400" y1="240" x2="320" y2="340" />
+      <line x1="320" y1="340" x2="160" y2="330" />
+      <line x1="160" y1="330" x2="80" y2="210" />
+      <line x1="80" y1="210" x2="120" y2="100" />
+      
+      <!-- Inner web connections -->
+      <line x1="120" y1="100" x2="220" y2="210" />
+      <line x1="240" y1="70" x2="220" y2="210" />
+      <line x1="360" y1="120" x2="220" y2="210" />
+      <line x1="400" y1="240" x2="220" y2="210" />
+      <line x1="320" y1="340" x2="220" y2="210" />
+      <line x1="160" y1="330" x2="220" y2="210" />
+      <line x1="80" y1="210" x2="220" y2="210" />
+    </g>
+
+    <!-- Nodes with Glowing Colors -->
+    <circle cx="120" cy="100" r="6" fill="url(#cyber-cyan)" filter="url(#neon-glow-cyan)" />
+    <circle cx="240" cy="70" r="5" fill="#EBF5FF" />
+    <circle cx="360" cy="120" r="7" fill="url(#cyber-purple)" filter="url(#neon-glow-purple)" />
+    <circle cx="400" cy="240" r="5" fill="#EBF5FF" />
+    <circle cx="320" cy="340" r="8" fill="url(#cyber-cyan)" filter="url(#neon-glow-cyan)" />
+    <circle cx="160" cy="330" r="6" fill="url(#cyber-purple)" />
+    <circle cx="80" cy="210" r="7" fill="url(#cyber-emerald)" />
+    <circle cx="220" cy="210" r="10" fill="#FFFFFF" filter="url(#neon-glow-cyan)" />
+    <circle cx="220" cy="210" r="4" fill="#030712" />
+
+    <!-- Center Tech HUD Labels -->
+    <text x="220" y="255" text-anchor="middle" fill="#9CA3AF" font-size="11" font-family="'JetBrains Mono', monospace" letter-spacing="2">SYS_ACTIVE</text>
+    <text x="220" y="175" text-anchor="middle" fill="#22D3EE" font-size="12" font-family="'JetBrains Mono', monospace" font-weight="bold">AI_CORE_v1.0</text>
+  </g>
+
+  <!-- Left Side Title Info -->
+  <g transform="translate(150, 110)">
+    <text x="0" y="0" fill="url(#cyber-cyan)" font-size="16" font-family="'JetBrains Mono', monospace" letter-spacing="4" font-weight="bold">// INITIATING HEADQUARTERS</text>
+    <text x="0" y="45" fill="#FFFFFF" font-size="42" font-weight="900" letter-spacing="-1">Jitesh Prakash Chaudhary</text>
+    <text x="0" y="75" fill="#9CA3AF" font-size="18" font-weight="400" letter-spacing="1">Robotics Builder &amp; AI Engineer • Nepal</text>
+  </g>
+
+  <!-- Right Side: Animated Terminal and Coding Metrics -->
+  <g transform="translate(740, 100)">
+    <!-- Main Window Container -->
+    <rect width="720" height="600" rx="16" fill="#0A0F1D" stroke="#1F2937" stroke-width="1.5" />
+    <rect width="720" height="600" rx="16" fill="none" stroke="url(#cyber-cyan)" stroke-width="1.5" stroke-opacity="0.2" filter="url(#neon-glow-cyan)" />
+    
+    <!-- Window Header -->
+    <path d="M 0,16 A 16,16 0 0,1 16,0 L 704,0 A 16,16 0 0,1 720,16 L 720,50 L 0,50 Z" fill="#111827" />
+    <circle cx="25" cy="25" r="6" fill="#EF4444" />
+    <circle cx="45" cy="25" r="6" fill="#F59E0B" />
+    <circle cx="65" cy="25" r="6" fill="#10B981" />
+    <text x="360" y="30" text-anchor="middle" fill="#6B7280" font-size="12" font-family="'JetBrains Mono', monospace" letter-spacing="1">jiteshprakash51@mainframe:~</text>
+    
+    <!-- Code Editor Content -->
+    <g transform="translate(30, 90)" font-family="'JetBrains Mono', monospace" font-size="13" fill="#E5E7EB">
+      <!-- Line 1 -->
+      <text x="0" y="0" fill="#6B7280">01</text>
+      <text x="35" y="0" fill="#7C3AED" font-weight="bold">import</text>
+      <text x="90" y="0" fill="#FFFFFF">{</text>
+      <text x="105" y="0" fill="#22D3EE">AI_Developer</text>
+      <text x="205" y="0" fill="#FFFFFF">,</text>
+      <text x="220" y="0" fill="#A78BFA">Roboticist</text>
+      <text x="310" y="0" fill="#FFFFFF">}</text>
+      <text x="325" y="0" fill="#7C3AED" font-weight="bold">from</text>
+      <text x="365" y="0" fill="#34D399">"nepal-builders"</text>
+      <text x="495" y="0" fill="#FFFFFF">;</text>
+
+      <!-- Line 2 -->
+      <text x="0" y="25" fill="#6B7280">02</text>
+      <text x="35" y="25" fill="#7C3AED" font-weight="bold">const</text>
+      <text x="85" y="25" fill="#34D399">developer</text>
+      <text x="170" y="25" fill="#F43F5E">=</text>
+      <text x="185" y="25" fill="#7C3AED" font-weight="bold">new</text>
+      <text x="220" y="25" fill="#22D3EE">AI_Developer</text>
+      <text x="320" y="25" fill="#FFFFFF">({</text>
+
+      <!-- Line 3 -->
+      <text x="0" y="50" fill="#6B7280">03</text>
+      <text x="55" y="50" fill="#9CA3AF">name:</text>
+      <text x="110" y="50" fill="#34D399">"Jitesh Prakash Chaudhary"</text>
+      <text x="310" y="50" fill="#FFFFFF">,</text>
+
+      <!-- Line 4 -->
+      <text x="0" y="75" fill="#6B7280">04</text>
+      <text x="55" y="75" fill="#9CA3AF">focus:</text>
+      <text x="115" y="75" fill="#FFFFFF">[</text>
+      <text x="125" y="75" fill="#34D399">"AI"</text>
+      <text x="165" y="75" fill="#FFFFFF">,</text>
+      <text x="180" y="75" fill="#34D399">"Robotics"</text>
+      <text x="270" y="75" fill="#FFFFFF">,</text>
+      <text x="285" y="75" fill="#34D399">"Cybersecurity"</text>
+      <text x="415" y="75" fill="#FFFFFF">]</text>
+      <text x="425" y="75" fill="#FFFFFF">,</text>
+
+      <!-- Line 5 -->
+      <text x="0" y="100" fill="#6B7280">05</text>
+      <text x="55" y="100" fill="#9CA3AF">location:</text>
+      <text x="145" y="100" fill="#34D399">"Nepal 🇳🇵"</text>
+      <text x="230" y="100" fill="#FFFFFF">,</text>
+
+      <!-- Line 6 -->
+      <text x="0" y="125" fill="#6B7280">06</text>
+      <text x="55" y="125" fill="#9CA3AF">isBuildingJarvis:</text>
+      <text x="210" y="125" fill="#A78BFA" font-weight="bold">true</text>
+
+      <!-- Line 7 -->
+      <text x="0" y="150" fill="#6B7280">07</text>
+      <text x="35" y="150" fill="#FFFFFF">});</text>
+
+      <!-- Line 8 -->
+      <text x="0" y="175" fill="#6B7280">08</text>
+
+      <!-- Line 9 (Terminal style output) -->
+      <text x="0" y="200" fill="#6B7280">09</text>
+      <text x="35" y="200" fill="#9CA3AF" font-style="italic">// Executing startup test...</text>
+
+      <!-- Line 10 (Terminal command output) -->
+      <text x="0" y="225" fill="#6B7280">10</text>
+      <text x="35" y="225" fill="#10B981">&gt; developer.init_neural_sequence()</text>
+
+      <!-- Line 11 (Response) -->
+      <text x="0" y="250" fill="#6B7280">11</text>
+      <text x="35" y="250" fill="#22D3EE">[SUCCESS] AI Core Loaded | 4 Nodes Synced</text>
+    </g>
+
+    <!-- Horizontal Divider -->
+    <line x1="30" y1="365" x2="690" y2="365" stroke="#1F2937" stroke-width="1.5" />
+
+    <!-- Mini Dashboard Widgets Inside Terminal Container -->
+    <g transform="translate(30, 390)">
+      <!-- System Widget 1: CPU/Memory -->
+      <g transform="translate(0,0)">
+        <rect width="200" height="170" rx="10" fill="#0F172A" stroke="#1F2937" stroke-width="1" />
+        <text x="20" y="30" fill="#9CA3AF" font-size="12" font-weight="bold">SYSTEM STATUS</text>
+        
+        <text x="20" y="65" fill="#E5E7EB" font-size="13" font-family="'JetBrains Mono', monospace">CPU CORE</text>
+        <rect x="20" y="75" width="160" height="8" rx="4" fill="#1F2937" />
+        <rect x="20" y="75" width="130" height="8" rx="4" fill="url(#cyber-cyan)" />
+        
+        <text x="20" y="115" fill="#E5E7EB" font-size="13" font-family="'JetBrains Mono', monospace">STRENGTH</text>
+        <rect x="20" y="125" width="160" height="8" rx="4" fill="#1F2937" />
+        <rect x="20" y="125" width="145" height="8" rx="4" fill="url(#cyber-purple)" />
+        
+        <text x="150" y="65" fill="#22D3EE" font-size="11" font-family="'JetBrains Mono', monospace" font-weight="bold">82%</text>
+        <text x="150" y="115" fill="#A78BFA" font-size="11" font-family="'JetBrains Mono', monospace" font-weight="bold">91%</text>
+      </g>
+
+      <!-- System Widget 2: Projects Live Sync -->
+      <g transform="translate(230,0)">
+        <rect width="200" height="170" rx="10" fill="#0F172A" stroke="#1F2937" stroke-width="1" />
+        <text x="20" y="30" fill="#9CA3AF" font-size="12" font-weight="bold">ACTIVE NODES</text>
+        
+        <!-- Jarvis Node -->
+        <circle cx="30" cy="65" r="6" fill="#10B981" />
+        <text x="45" y="69" fill="#E5E7EB" font-size="12" font-family="'JetBrains Mono', monospace">🤖 PWJARVIS</text>
+        <text x="150" y="69" fill="#10B981" font-size="10" font-family="'JetBrains Mono', monospace">ONLINE</text>
+
+        <!-- NexPay Node -->
+        <circle cx="30" cy="100" r="6" fill="#10B981" />
+        <text x="45" y="104" fill="#E5E7EB" font-size="12" font-family="'JetBrains Mono', monospace">🏛️ Corruption</text>
+        <text x="150" y="104" fill="#10B981" font-size="10" font-family="'JetBrains Mono', monospace">ONLINE</text>
+
+        <!-- SEE Mentor Node -->
+        <circle cx="30" cy="135" r="6" fill="#3B82F6" />
+        <text x="45" y="139" fill="#E5E7EB" font-size="12" font-family="'JetBrains Mono', monospace">📚 SEE Mentor</text>
+        <text x="150" y="139" fill="#3B82F6" font-size="10" font-family="'JetBrains Mono', monospace">STABLE</text>
+      </g>
+
+      <!-- System Widget 3: Live Radar Graph (Visual Concept) -->
+      <g transform="translate(460,0)">
+        <rect width="200" height="170" rx="10" fill="#0F172A" stroke="#1F2937" stroke-width="1" />
+        <text x="20" y="30" fill="#9CA3AF" font-size="12" font-weight="bold">GEOLOCATION</text>
+        
+        <!-- Target/Nepal Details -->
+        <text x="20" y="65" fill="#E5E7EB" font-size="14" font-weight="bold">Kathmandu, NP</text>
+        <text x="20" y="85" fill="#6B7280" font-size="11" font-family="'JetBrains Mono', monospace">LAT: 27.7172° N</text>
+        <text x="20" y="100" fill="#6B7280" font-size="11" font-family="'JetBrains Mono', monospace">LON: 85.3240° E</text>
+        
+        <!-- Glowing Ping Signal -->
+        <circle cx="150" cy="115" r="15" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.5" />
+        <circle cx="150" cy="115" r="25" fill="none" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.2" />
+        <circle cx="150" cy="115" r="5" fill="#22D3EE" />
+        
+        <text x="20" y="140" fill="#22D3EE" font-size="11" font-family="'JetBrains Mono', monospace" font-weight="bold">PING: 24ms (OK)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Futuristic Bottom Banner Accent -->
+  <g transform="translate(0, 770)">
+    <rect width="1600" height="30" fill="#070A13" />
+    <text x="50" y="20" fill="#4B5563" font-size="11" font-family="'JetBrains Mono', monospace" letter-spacing="1">IP_ADDRESS: 192.168.1.51 // STATUS: SECURE CONNECTION</text>
+    <text x="1550" y="20" text-anchor="end" fill="url(#cyber-cyan)" font-size="11" font-family="'JetBrains Mono', monospace" font-weight="bold" letter-spacing="1">INTEL_COPROCESSOR_ENABLED</text>
+  </g>
+</svg>
