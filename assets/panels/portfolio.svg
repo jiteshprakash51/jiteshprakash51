@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 224" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#121526"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-opacity="0.35" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="560" height="224" rx="22" fill="url(#bgp)"/>
+  <rect width="560" height="224" rx="22" fill="url(#gridp)"/>
+  <circle cx="96" cy="94" r="120" fill="url(#glow)">
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="1.5" y="1.5" width="557" height="221" rx="22" fill="none" stroke="#3B82F6" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="96" cy="94" r="44" fill="#0F172A" stroke="#3B82F6" stroke-width="2.5"/>
+  <text x="96" y="109" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="37" font-weight="800" fill="#3B82F6">JP</text>
+  <text x="166" y="86" font-family="Inter, 'Segoe UI', sans-serif" font-size="34" font-weight="800" fill="#F1F5F9">Portfolio</text>
+  <text x="166" y="117" font-family="Inter, 'Segoe UI', sans-serif" font-size="19" font-weight="500" fill="#94A3B8">Monochrome editorial personal site</text>
+  <text x="166" y="146" font-family="Inter, 'Segoe UI', sans-serif" font-size="16" fill="#64748B">Hero, social hub, notes and mini AI</text>
+  <rect x="166" y="162" width="109" height="34" rx="17" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="220" y="184" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" fill="#3B82F6">Next.js</text>
+</svg>
