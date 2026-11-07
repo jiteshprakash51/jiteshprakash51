@@ -21,10 +21,10 @@
     <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
   </rect>
   <circle cx="47" cy="57" r="26" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
-  <text x="47" y="66" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="23" font-weight="800" fill="#10B981">NB</text>
-  <text x="88" y="47" font-family="Inter, 'Segoe UI', sans-serif" font-size="23" font-weight="800" fill="#F1F5F9">Velloreth Books</text>
-  <text x="88" y="67" font-family="Inter, 'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="#94A3B8">NEB Class 11-12 books online</text>
-  <text x="88" y="84" font-family="Inter, 'Segoe UI', sans-serif" font-size="11" fill="#64748B">Search, bookmarks, in-site PDF viewer</text>
+  <text x="47" y="66" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="23" font-weight="800" fill="#10B981">NB</text>
+  <text x="88" y="47" font-family="'Times New Roman', Times, serif" font-size="23" font-weight="800" fill="#F1F5F9">Velloreth Books</text>
+  <text x="88" y="67" font-family="'Times New Roman', Times, serif" font-size="13" font-weight="500" fill="#94A3B8">NEB Class 11-12 books online</text>
+  <text x="88" y="84" font-family="'Times New Roman', Times, serif" font-size="11" fill="#64748B">Search, bookmarks, in-site PDF viewer</text>
   <rect x="88" y="91" width="56" height="20" rx="10" fill="#0F172A" stroke="#10B981" stroke-opacity="0.55" stroke-width="1.2"/>
-  <text x="116.0" y="105" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#10B981">Astro</text>
+  <text x="116.0" y="105" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="10.5" fill="#10B981">Astro</text>
 </svg>
