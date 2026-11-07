@@ -30,15 +30,25 @@ I'm a Grade 11 science student (Physical Group) at Kathmandu Model College in Ka
 ## Featured work
 
 <div align="center">
-  <a href="https://chromewebstore.google.com/detail/aura-tab-ios-glass-home/daohcijmbfkncfbdaipacbmgbkhacicj"><img src="assets/panels/auratab.svg" width="100%" alt="AuraTab - iOS-style glass new tab for Chrome" /></a>
-  <a href="https://offqen.jiteshprakash.com.np"><img src="assets/panels/offqen.svg" width="100%" alt="OffQen - offline-capable payment concept" /></a>
-  <a href="https://seementorai.netlify.app"><img src="assets/panels/see-mentor-ai.svg" width="100%" alt="SEE Mentor AI - study assistant prototype" /></a>
-  <a href="https://www.jiteshprakash.com.np/apps/neon-void"><img src="assets/panels/neon-void.svg" width="100%" alt="Neon Void - HTML5 arcade space shooter" /></a>
-  <a href="https://blog.jiteshprakash.com.np"><img src="assets/panels/velloreth-blog.svg" width="100%" alt="Velloreth Blog - tech writing" /></a>
-  <a href="https://book.jiteshprakash.com.np"><img src="assets/panels/velloreth-books.svg" width="100%" alt="Velloreth Books - NEB books online" /></a>
-  <a href="https://www.jiteshprakash.com.np"><img src="assets/panels/portfolio.svg" width="100%" alt="Portfolio - monochrome editorial personal site" /></a>
-  <a href="https://www.jiteshprakash.com.np/apps/ai-assistant-widget"><img src="assets/panels/ai-assistant.svg" width="100%" alt="AI Assistant - embedded portfolio chat widget" /></a>
-  <a href="https://www.jiteshprakash.com.np/projects"><img src="assets/panels/site-system.svg" width="100%" alt="Site System - one Next.js app, one identity" /></a>
+  <p>
+    <a href="https://chromewebstore.google.com/detail/aura-tab-ios-glass-home/daohcijmbfkncfbdaipacbmgbkhacicj"><img src="assets/panels/auratab.svg" width="400" alt="AuraTab - iOS-style glass new tab for Chrome" /></a>
+    <a href="https://offqen.jiteshprakash.com.np"><img src="assets/panels/offqen.svg" width="400" alt="OffQen - offline-capable payment concept" /></a>
+  </p>
+  <p>
+    <a href="https://seementorai.netlify.app"><img src="assets/panels/see-mentor-ai.svg" width="400" alt="SEE Mentor AI - study assistant prototype" /></a>
+    <a href="https://www.jiteshprakash.com.np/apps/neon-void"><img src="assets/panels/neon-void.svg" width="400" alt="Neon Void - HTML5 arcade space shooter" /></a>
+  </p>
+  <p>
+    <a href="https://blog.jiteshprakash.com.np"><img src="assets/panels/velloreth-blog.svg" width="400" alt="Velloreth Blog - tech writing" /></a>
+    <a href="https://book.jiteshprakash.com.np"><img src="assets/panels/velloreth-books.svg" width="400" alt="Velloreth Books - NEB books online" /></a>
+  </p>
+  <p>
+    <a href="https://www.jiteshprakash.com.np"><img src="assets/panels/portfolio.svg" width="400" alt="Portfolio - monochrome editorial personal site" /></a>
+    <a href="https://www.jiteshprakash.com.np/apps/ai-assistant-widget"><img src="assets/panels/ai-assistant.svg" width="400" alt="AI Assistant - embedded portfolio chat widget" /></a>
+  </p>
+  <p>
+    <a href="https://www.jiteshprakash.com.np/projects"><img src="assets/panels/site-system.svg" width="400" alt="Site System - one Next.js app, one identity" /></a>
+  </p>
 </div>
 
 **AuraTab privacy:** No account and no developer-side analytics or tracking; optional online features call their own services only when you use them.
